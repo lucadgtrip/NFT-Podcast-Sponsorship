@@ -1,0 +1,23 @@
+.link__presentation {
+  margin: 0 3px;
+  font-weight: 600;
+  &:hover {
+    color: white;
+  }
+}
+
+.section__footer {
+  background: linear-gradient(to right, #002348, #649231);
+  color: #f8f8f8;
+  background-image: linear-gradient(rgba(70, 116, 148,0),rgba(255,255,255,0.1)), url('../../public/web3intravelpodcastbg_footer.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+  .img{
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+
+}

@@ -1,0 +1,106 @@
+Status: 6Jan next step deploy on Mumbai
+
+TO DO
+
+- github the code
+- add link to https://anchor.fm/luca-de-giglio/episodes/I-created-a-Podcast-Donation-and-Sponsorship-NFT-e1tbk6r
+- allow fiat payments https://stripe.com/en-gb-it/use-cases/ecommerce
+
+- The first sponsor does not see the donate text in real time in the page
+- Show All Donations in Claimingform and Presentation, same as in Sponsorship
+- dopo connect wallet, torna su, dovrebbe invece andare a wallet
+- Add alert on blockscan to see when people pay for Sponsor
+
+
+CHAINS
+- Sepolia
+- Arbitrum
+- Polygon : MATIC is an ERC20 and requires a code update
+- Gnosis
+
+
+WALLETS
+Once live make treasurer and owner 0xe2Fcb9715cF1532436dA296Dbd7fB2DBaDd5b228 Tripluca.eth
+
+
+
+POSTPONED
+- display USD value of the donation: "await" issues with Webpack
+- chain4travel, lanciare su loro? non ha risposto ma ho visto che sono in Beta
+
+
+
+------------
+WHEN "Maximum call stack size exceeded"
+npm cache clean --force
+npm run dev
+
+DEPLOY
+
+cd ethereum node compile.js 
+or
+node compile.js
+
+node deploy.js (remix)
+
+npm run build && npm run export
+npm run dev
+
+node compile.js && npm run build && npm run export && npm run dev
+node compile.js && npm run build && npm run export
+
+
+==== 
+CHANGE CHAIN
+
+Modify the chain in Index.js and in ENV 
+
+
+GITHUB copilot
+Suggestions: https://docs.github.com/en/copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code
+
+See next suggestion: Option (⌥) or Alt+]
+See previous suggestion: Option (⌥) or Alt+[
+
+GANACHE GUI
+clever obscure holiday donor bread supreme connect useless island lake stand car
+
+GANACHE CLI 
+Available Accounts
+==================
+(0) 0xFf98E2d2529ea6458C01Bd49BD681eE725a1B202 (100 ETH)
+(1) 0xD0e89abD2dE68B934A9Ed8dc5e95F1c4A32dC31e (100 ETH)
+(2) 0x07ccE87056B22Af0a6e6f4d16e8F7862eb3E88CB (100 ETH)
+(3) 0xEF163cDbeeE2002DBfCf9A81cF89DCdA7c4EdF8b (100 ETH)
+(4) 0x2Db9B37B63cA1eFf7e3e66adeCEa69Db03173044 (100 ETH)
+(5) 0x5e3CA001bb2e4378891c1FF4c95C74Bf7D910c7e (100 ETH)
+(6) 0x93EDE170c02DBcFCd4aAc4F18790819ad211bd4C (100 ETH)
+(7) 0x8c6C6b5633eDA3B1fCd5a50d828A86fBe2D5799e (100 ETH)
+(8) 0xE3b6E152f185B1c32ef5eFfC7345084A36d91038 (100 ETH)
+(9) 0xC260C079B2F4726521Df694afa667Eb61A2753fe (100 ETH)
+
+Private Keys
+==================
+(0) 0x28135a11a6e13f7e9f263a9205476b075f78f4bec1a68da17b2425b1b9f24967
+(1) 0xbf7fe31e526381720028af295a0e32ffa76375be299c4fbaea67d447dbf324fe
+(2) 0x241515aac971a46af3efc40a825032ebe20a4ae516356b4740028836a1e02e19
+(3) 0xc109606929437a835e0d10966ceaafa7f458c44fff562afc2ef17d7e5093efbe
+(4) 0x5be377b19984e9dcbbfd15d3e050be5060e97d155b2999906a459ba501fa95e5
+(5) 0x6ad720e6e04cb02b7f9c0a845676ba9cec1e1258025628ebf547fa61a1e3e209
+(6) 0x475cfb4bde86e4a108e6ddfd1f65784d3e9b8fe0dadde267ec241c4bb660c6b2
+(7) 0xb8822b7dec2725431cb3638066a15f6b25efc0d8f10e6af1c686b97c0ba8395b
+(8) 0x88568ba0055b28dee66af82ee09ac3fb5ffdfa5d09e0f21742b22b62560108fe
+(9) 0xfa30a80af3fb91a362f1b6c027dafeb8fda449e2fa9047e336a03a6f268fe16f
+
+HD Wallet
+==================
+Mnemonic:      churn aerobic soap fortune anxiety today tomato pumpkin fortune silly horn vanish
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+
+firebase
+✔  Success! Use this token to login on a CI server:
+
+1//09bAd0OndzxXiCgYIARAAGAkSNwF-L9IrkjuOASX6zaytVZ0X-2XZkYOf4NwXXikYIkLckLJKWDYkhRFRvff2UneAlwvE0AytSxU
+
+
